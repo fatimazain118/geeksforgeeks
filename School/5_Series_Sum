@@ -1,0 +1,10 @@
+class Solution{
+public:
+	// function to return sum of  1, 2, ... n
+	long long seriesSum(int n) {
+	    // code here
+	 return((long)n * (long(n+1)))/2;    //bina long k it gives time exceed error, in gfg compiler you need to return something else it will print that thing in return
+	 
+	}
+	
+};
