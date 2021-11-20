@@ -1,0 +1,19 @@
+class Solution{
+    public:
+    string longest(string names[], int n)
+    {
+        int max=0;
+        int index=0;
+        for(int i=0; i<n; i++)
+        {
+            int a = names[i].length();
+            if(a>max)
+            {
+                max=a;
+                index=i;
+                
+            }
+        }
+        return names[index];
+    }
+};
